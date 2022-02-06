@@ -1,13 +1,14 @@
 import styled from 'styled-components';
-import tw from 'twin.macro';
 
 const CircularTimeLoader = styled.div`
-  ${tw` mx-auto mt-4 rounded-full`}
-  border: 20px solid ${(props) => props.color || '#00AABB'};
-  border-top: 5px solid ${(props) => props.color || '#00AABB'};
+  margin: auto;
+  margin-top: 4rem;
+  border-radius: 100%;
+  border: 20px solid ${(props) => props.color || "#00AABB"};
+  border-top: 5px solid ${(props) => props.color || "#00AABB"};
   width: 50px;
   height: 50px;
-  animation: spin ${(props) => props.delay || '3s'} linear infinite;
+  animation: spin ${(props) => props.delay || "3s"} linear infinite;
   @keyframes spin {
     0% {
       transform: rotate(0deg);
@@ -18,4 +19,7 @@ const CircularTimeLoader = styled.div`
   }
 `;
 
-export default CircularTimeLoader;
+module.exports = {
+  CircularTimeLoader
+};
+

@@ -1,8 +1,10 @@
 import styled from 'styled-components';
-import tw from 'twin.macro';
 
 const CircularEffect = styled.div`
-  ${tw` mx-auto mt-4 rounded-full relative`}
+  margin: auto;
+  margin-top: 4rem;
+  position: relative;
+  border-radius: 100%;
   border: 3px solid transparent;
   border-top: 3px solid ${(props) => props.color || '#00AABB'};
   width: 60px;
@@ -10,7 +12,8 @@ const CircularEffect = styled.div`
   animation: spin ${(props) => props.delay || '2.5s'} linear infinite;
   ::before {
     content: '';
-    ${tw`absolute rounded-full`}
+    border-radius: 100%;
+    position: absolute;
     background: ${(props) => props.color || '#00AABB'};
     width: 10px;
     top: 5px;
@@ -42,4 +45,8 @@ const CircularEffect = styled.div`
   }
 `;
 
-export default CircularEffect;
+module.exports = {
+  CircularEffect
+};
+
+

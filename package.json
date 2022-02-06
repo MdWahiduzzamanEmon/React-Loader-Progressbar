@@ -1,0 +1,24 @@
+{
+  "name": "react-loader-progressbar",
+  "version": "1.0.0",
+  "description": "Free NPM package for react loader, spinner, progressbar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MdWahiduzzamanEmon/React-Loader-Progressbar.git"
+  },
+  "keywords": [
+    "loader",
+    "progressbar",
+    "spinner"
+  ],
+  "author": "Md Wahiduzzaman Emon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MdWahiduzzamanEmon/React-Loader-Progressbar/issues"
+  },
+  "homepage": "https://github.com/MdWahiduzzamanEmon/React-Loader-Progressbar#readme"
+}
