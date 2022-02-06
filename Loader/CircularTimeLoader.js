@@ -19,7 +19,5 @@ const CircularTimeLoader = styled.div`
   }
 `;
 
-module.exports = {
-  CircularTimeLoader
-};
+export default CircularTimeLoader;
 

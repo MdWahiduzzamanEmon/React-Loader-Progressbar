@@ -31,7 +31,6 @@ const AnimatedProgressBar = styled.div`
   }
 `;
 
-module.exports = {
-  AnimatedProgressBar
-};
+export default AnimatedProgressBar;
+
 

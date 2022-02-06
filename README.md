@@ -5,8 +5,20 @@ Get React Loader|| ProgressBar with styled components.
 ## Installation
 
 `npm install react-loader-spinner --save`
+
 `npm install --save styled-components`
 
+## progressbar name
+
+    * CircularLoaderEditable,
+    * CircularTimeLoader,
+    * CircularEffect,
+    * PulseLoader,
+    * DoubleCircularLoader,
+    * AnimatedProgressBar,
+    * PercentProgressBar,
+    * LinearProgressBar,
+    * LinearProgressBarTwo
 ## Options
 
 `color`: Color of the loader. Default: `#00AABB`

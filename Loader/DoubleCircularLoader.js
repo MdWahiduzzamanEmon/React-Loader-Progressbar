@@ -32,7 +32,5 @@ const DoubleCircularLoader = styled.div`
   }
 `;
 
-module.exports = {
-  DoubleCircularLoader
-};
+export default DoubleCircularLoader;
 

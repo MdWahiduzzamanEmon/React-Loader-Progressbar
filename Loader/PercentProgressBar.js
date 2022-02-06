@@ -39,7 +39,6 @@ const PercentProgressBar = styled.div`
   }
 `;
 
-module.exports = {
-  PercentProgressBar
-};
+export default PercentProgressBar;
+
 

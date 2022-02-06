@@ -43,7 +43,5 @@ const PulseLoader = styled.div`
   }
 `;
 
-module.exports = {
-  PulseLoader
-};
+export default PulseLoader;
 

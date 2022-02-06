@@ -35,7 +35,6 @@ const LinearProgressBar = styled.div`
   }
 `;
 
-module.exports = {
-  LinearProgressBar
-};
+export default LinearProgressBar;
+
 

@@ -23,7 +23,6 @@ const CircularLoaderEditable = styled.div`
   }
 `;
 
-module.exports = {
-  CircularLoaderEditable
-};
+export default CircularLoaderEditable;
+
 

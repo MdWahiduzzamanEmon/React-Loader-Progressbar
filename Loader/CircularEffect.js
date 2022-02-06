@@ -45,8 +45,7 @@ const CircularEffect = styled.div`
   }
 `;
 
-module.exports = {
-  CircularEffect
-};
+export default CircularEffect;
+
 
 
