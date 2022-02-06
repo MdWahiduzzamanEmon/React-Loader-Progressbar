@@ -8,17 +8,17 @@ Get React Loader|| ProgressBar with styled components.
 
 `npm install --save styled-components`
 
-## progressbar name
+## Components
 
-    ```sh <CircularLoaderEditable/> ```
-    ```sh <CircularTimeLoader/> ```
-    ```sh <CircularEffect/> ```
-    ```sh <PulseLoader/> ```
-    ```sh <DoubleCircularLoader/> ```
-    ```sh <AnimatedProgressBar/> ```
-    ```sh <PercentProgressBar/> ```
-    ```sh <LinearProgressBar/> ```
-    ```sh <LinearProgressBarTwo/> ```
+    <CircularLoaderEditable/>
+    <CircularTimeLoader/>
+    <CircularEffect/>
+    <PulseLoader/>
+    <DoubleCircularLoader/>
+    <AnimatedProgressBar/>
+    <PercentProgressBar/>
+    <LinearProgressBar/>
+    <LinearProgressBarTwo/>
 
 ### uses
 
