@@ -8,8 +8,8 @@ import PercentProgressBar from './Loader/PercentProgressBar';
 import LinearProgressBar from './Loader/LinearProgressBar';
 import LinearProgressBarTwo from './Loader/LinearProgressBarTwo';
 
-module.exports = {
-  CircularLoaderEditable,
+export default CircularLoaderEditable;
+export {
   CircularTimeLoader,
   CircularEffect,
   PulseLoader,
