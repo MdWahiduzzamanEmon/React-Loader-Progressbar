@@ -4,7 +4,7 @@ Get React Loader|| ProgressBar with styled components.
 
 ## Installation
 
-`npm install react-loader-spinner --save`
+`npm install react-loader-progressbar --save`
 
 `npm install --save styled-components`
 
