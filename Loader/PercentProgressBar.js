@@ -5,6 +5,7 @@ const PercentProgressBar = styled.div`
   margin-top: 4rem;
   position: relative;
   border-radius: 0.5rem;
+  overflow: hidden;
   border: ${(props) => props.stroke || "1px"} solid
     ${(props) => props.color || "#00AABB"};
   width: ${(props) => props.size || "50%"};
@@ -16,6 +17,7 @@ const PercentProgressBar = styled.div`
     left: 0;
     bottom: 0;
     right: 0;
+    overflow: hidden;
     width: ${(props) => `${props.percent}%` || "0%"};
     background-color: ${(props) => props.color || "#00AABB"};
     animation: ${(props) => props.animation || "animation2"}
@@ -28,6 +30,7 @@ const PercentProgressBar = styled.div`
     right: -30px;
     font-size: ${(props) => props.fontSize || "12px"};
     color: ${(props) => props.textColor || "#00AABB"};
+    overflow: hidden;
   }
   @keyframes animation2 {
     0% {
